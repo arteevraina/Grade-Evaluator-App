@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marks Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./app.css">
+</head>
+<body>
+    <h1 class="heading">Marks Calculator</h1>
+    <div class="eng">
+        <label for ="eng">English</label>
+        <input type="text" placeholder="Enter marks" id="eng" minlength="1" maxlength="3" value="" required>
+    </div>
+    <div class="hindi">
+            <label for ="hindi">Hindi</label>
+            <input type="text" placeholder="Enter marks" id="hindi" minlength="1" maxlength="3" value="" required>
+    </div>
+    <div class="maths">
+            <label for ="maths">Maths</label>
+            <input type="text" placeholder="Enter marks" id="maths" minlength="1" maxlength="3" value="" required>
+    </div>
+    <div class="science">
+            <label for ="science">Science</label>
+            <input type="text" placeholder="Enter marks" id="science" minlength="1" maxlength="3" value="" required>
+    </div>
+    <div class="sst">
+            <label for ="sst">Social Science</label>
+            <input type="text" placeholder="Enter marks" id="sst" minlength="1" maxlength="3" value="" required>
+    </div>
+    <div><input type="button" value="Show Percentage" onclick="calcy()"></div>
+    <div id="showData">
+        <p> </p>
+    </div>
+  
+    <script src="./app.js"></script>
+</body>
+</html>
